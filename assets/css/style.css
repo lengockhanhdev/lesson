@@ -111,6 +111,7 @@ a {
     width: 12px;
     height: 2px;
     background: #171100;
+    border-radius: 999px;
 }
 
 .nav__btn {
