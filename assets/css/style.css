@@ -93,6 +93,7 @@ a {
     padding: 12px 21px;
     color: #5F5B53;
     font-size: 1.6rem;
+    line-height: 1.75;
 }
 
 .nav__item.active a,
@@ -306,6 +307,7 @@ a {
     font-size: 3.8rem;
     font-weight: 700;
     letter-spacing: -0.76px;
+    line-height: 1.26;
 }
 
 .courses__info p {
@@ -360,12 +362,17 @@ a {
 }
 
 .courses__item:hover .courses__item-img {
-    transform: scale(1.02);
+    transform: scale(1.05);
+}
+
+.courses__item-thumb {
+    height: 278px;
+    overflow: hidden;
 }
 
 .courses__item-img {
     width: calc(100% + 2px);
-    height: 278px;
+    height: 100%;
     object-fit: cover;
     border-radius: 12px 12px 0px 0px;
     margin: -1px;
@@ -375,6 +382,7 @@ a {
 .courses__item-body {
     padding: 16px 22px 22px;
     border-radius: 0 0 12px 12px;
+    transition: .25s;
 }
 
 .courses__item-heading,
@@ -390,6 +398,7 @@ a {
     color: #171100;
     font-size: 1.8rem;
     font-weight: 600;
+    line-height: 1.67;
 }
 
 .courses__item-rating span{
@@ -456,12 +465,14 @@ a {
     font-family: Sen, sans-serif;
     font-size: 2.4rem;
     font-weight: 700;
+    line-height: 1.42;
 }
 
 .reviews__info p:last-of-type {
     margin-top: 4px;
     color: #BFBCB2;
     font-size: 1.4rem;
+    line-height: 1.86;
 }
 
 .reviews__info-dots {
@@ -586,6 +597,7 @@ a {
     font-size: 3.8rem;
     font-weight: 700;
     letter-spacing: -0.76px;
+    line-height: 1.26;
 }
 
 .blog__desc {
@@ -774,4 +786,5 @@ a {
     color: #807D74;
     text-align: center;
     font-size: 1.4rem;
+    line-height: 1.86;
 }
